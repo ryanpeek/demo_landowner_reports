@@ -1,0 +1,867 @@
+site_id,date_surveyed,start_date,end_date,grts_cell_id,year,num_nights,species_code,present,Plotting_label,CEMAP_Group,CEMAP_combined
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,1,Blue bat,Blue bat,Blue bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,1,River bat,River bat,River bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,1,Another bat,Another bat,Another bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/14/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/15/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/16/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/17/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/18/2024,6/14/2024,6/18/2024,30250,2024,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,1,Blue bat,Blue bat,Blue bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,1,Blue bat,Blue bat,Blue bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/14/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/15/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/16/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/17/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/18/2023,6/14/2023,6/18/2023,30250,2023,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE1,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE1,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,1,Blue bat,Blue bat,Blue bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,1,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,1,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,1,Another bat,Another bat,Another bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,1,Another bat,Another bat,Another bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE2,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE2,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,1,Blue bat,Blue bat,Blue bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,1,Blue bat,Blue bat,Blue bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,1,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,1,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,1,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE3,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE3,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,ANPA,0,Blue bat,Blue bat,Blue bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,1,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,COTO,0,Smelly bat,Townsend's big-eared bat,Townsend's big-eared bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EPFU,0,Three-winged bat,Three-winged bat,Three-winged bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,1,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,1,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EUMA,0,Sizzle-spotted bat,Sizzle-spotted bat,Sizzle-spotted bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,1,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,EUPE,0,Western Pacific Eastern bat,Western Pacific Eastern bat,Western Pacific Eastern bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,0,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LACI,1,Yellow-toe bat,Yellow-toe bat,Yellow-toe bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,1,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LAFR,0,Turnip bat,Turnip bat,Turnip bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,1,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,LANO,0,Silver-haired bat,Silver-haired bat,Silver-haired bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,1,Latin bat,Latin bat,Latin bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYCA,0,Latin bat,Latin bat,Latin bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,1,Tree bat,Tree bat,Tree bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYEV,0,Tree bat,Tree bat,Tree bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,1,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYLU,0,Super tiny bat,Super tiny bat,Super tiny bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,1,Old bat,Old bat,Old bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYTH,0,Old bat,Old bat,Old bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,1,Another bat,Another bat,Another bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,1,Another bat,Another bat,Another bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,0,Another bat,Another bat,Another bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYVO,1,Another bat,Another bat,Another bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,1,Strong bat,Strong bat,Strong bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,MYYU,0,Strong bat,Strong bat,Strong bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,1,River bat,River bat,River bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,PAHE,0,River bat,River bat,River bat
+SAHE4,6/14/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/15/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/16/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,1,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/17/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat
+SAHE4,6/18/2025,6/14/2025,6/18/2025,30250,2025,5,TABR,0,Brownish fuzzypants bat,Brownish fuzzypants bat,Brownish fuzzypants bat

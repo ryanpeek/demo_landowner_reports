@@ -1,0 +1,755 @@
+---
+date-meta: today
+params:
+  landowner: "uc_sagehen_reserve"
+format:
+  #    - top=30mm
+  #    - left=20mm
+  #    - heightrounded
+  #pdf: 
+  #  toc: false
+  #  geometry:
+  #docx: 
+  #  page-width: 8 
+  html:
+   theme: materia # sandstone, materia
+   toc: false
+   toc-depth: 2
+   self-contained: true
+   code-fold: true
+   code-overflow: wrap
+   lightbox: true
+prefer-html: true
+format-links: false
+crossref:
+  custom:
+    - kind: float
+      latex-env: wicam
+      reference-prefix: "Photo"
+      key: wicam
+      space-before-numbering: true
+execute:
+  echo: false
+  warning: false
+  message: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| label: libraries
+
+# this loads all the packages we may need
+
+library(pacman)
+pacman::p_load(
+  # spatial
+  terra, tidyterra, sf, nhdplusTools,
+  # data wrangling/reading
+  readxl, tidyverse,
+  # plotting/mapping
+  ggthemes, ggspatial, viridis, patchwork, basemaps,
+  showtext, cowplot, cols4all, ggrepel, scales,
+  gt, knitr, # tables
+  # utilities
+  fs, here, httr, glue, janitor)
+
+# Set Paths Automagically
+userhome <- fs::path_home()
+onedrive <- r'(OneDrive - California Department of Fish and Wildlife\)'
+cemaf <- "Terrestrial"
+year_sel <- 2024
+
+# create path to data location:
+dat_path <- glue("{userhome}/{onedrive}/{cemaf}/Data/")
+
+```
+
+```{r}
+#| label: load-data
+
+# this is an example for now, change to where your data lives.
+# if you wanted to use a separate data qmd to process and save/load the data, 
+# we could make a _process_and_load__data.qmd
+# and then include that in text (outside of a code chunk) with:
+# {{< include _process_and_load_data.qmd >}}
+# see here: https://quarto.org/docs/authoring/includes.html
+
+## Site Locations -------------
+all_sites <- read_csv(glue("data/site_locations_example.csv")) |> 
+  # make coalesced site_id
+  mutate(site_id_rev = coalesce(site_id_new, site_id), .after=site_id)
+
+## Landowner Metadata -------------------------------------------
+meta_landowner <- read_csv("data/meta_landowner_example.csv") 
+
+# make a clean owner list (filter out aquatic for now)
+owner_clean <- meta_landowner |> 
+  select(owner) |>
+  distinct() |>
+  mutate(owner_clean = make_clean_names(owner), .after="owner")
+
+# join back
+meta_landowner <- meta_landowner |> left_join(owner_clean) |> relocate(owner_clean, .after=owner)
+
+# make an alphabetical list of clean landowner names
+landowner_uniq <- sort(unique(meta_landowner$owner_clean))
+
+# join to site list to get the full possible list of site ids
+meta_landowner <- left_join(meta_landowner, 
+                            all_sites |> select(site:year))
+
+# make a landowner specific list
+lo_meta <- meta_landowner |> 
+  filter(owner_clean %in% params$landowner) 
+
+## Wildlife Data -----------------
+
+# ML
+ml_dat <- read_csv("data/data_ml_example.csv")
+ml_meta <- read_csv("data/meta_ml_cam_example.csv")
+
+# SA
+sa_dat <- read_csv("data/data_sa_example.csv")
+sa_meta <- read_csv("data/meta_sa_cam_example.csv")
+
+# BIRDS
+bird_dat <- read_csv("data/data_bird_example.csv")
+bird_meta <- read_csv("data/meta_bird_example.csv") |> 
+  # add year
+  rename(year = subproject) |> 
+  # format dates
+  mutate(start_date = mdy(start_date),
+         end_date = mdy(end_date))
+
+# BATS
+bat_dat <- read_csv("data/data_bat_example.csv")
+bat_meta <- read_csv("data/meta_bat_example.csv") |> 
+  # add year
+  rename(year = subproject) |> 
+    # format dates
+  mutate(start_date = mdy(start_date),
+         end_date = mdy(end_date))
+
+## Filter to Specific Report Landowner --------------------------------------
+
+lo_bt_dat <- bat_dat |> 
+  inner_join(lo_meta |> filter(data_type=="BT") |> select(-c(site_id)),
+             by = c("site_id"="site_id_rev", "year"))
+
+lo_bd_dat <- bird_dat |> 
+  inner_join(lo_meta |> filter(data_type=="BD") |> select(-c(site_id)),
+            by = c("year", "site_id"="site_id_rev"))
+
+lo_ml_dat <- ml_dat |> 
+  inner_join(lo_meta |> filter(data_type=="ML") |> select(-c(site_id, data_type)),
+             by = c("year", "site_id"="site_id_rev")) 
+
+lo_sa_dat <- sa_dat |> 
+  inner_join(lo_meta |> filter(data_type=="SA") |> select(-c(site_id, data_type)),
+             by = c("year", "site_id"="site_id_rev")) 
+
+# join w metadata, should only be ~smaller (1 per site_id per year)
+lo_bt_meta <- bat_meta |> 
+  inner_join(lo_meta |> filter(data_type=="BT") |>
+              rename(site_id_static = site_id) |> 
+              select(-c(site_id_new, owner, comments, data_type)),
+            by = c("year", "site_id"="site_id_rev"))
+
+lo_bd_meta <- bird_meta |> 
+  inner_join(lo_meta |> filter(data_type=="BD") |> 
+              rename(site_id_static = site_id) |> 
+              select(-c(site_id_new, owner, comments, data_type)),
+            by = c("year", "site_id"="site_id_rev"))
+
+lo_ml_meta <- ml_meta |> 
+  inner_join(lo_meta |> filter(data_type=="ML") |>
+              rename(site_id_static = site_id) |> 
+              select(-c(site_id_new, owner, comments, data_type)),
+            by = c("year", "site_id"="site_id_rev"))
+
+lo_sa_meta <- sa_meta |> 
+  inner_join(lo_meta |> filter(data_type=="SA") |> 
+              rename(site_id_static = site_id) |> 
+              select(-c(site_id_new, owner, comments, data_type)),
+            by = c("year", "site_id"="site_id_rev")) 
+
+# Get HUC12s ---------------------------------------------
+
+# landowner specific filtered sites
+lo_sites <- lo_meta |> select(site_id, site_id_rev, year, owner_clean, data_type) |> 
+  left_join(all_sites) |> select(site_id, site_id_rev, year, huc12_bas, huc12_name, latitude, longitude, data_type) |> 
+  mutate(HUC12 = gsub("H","", huc12_bas)) |>
+  distinct(.keep_all = TRUE) |> 
+  st_as_sf(coords=c("longitude", "latitude"), crs=4326, remove=FALSE) |> 
+  st_transform(3310)
+
+# make a unique sites list for text
+lo_sites_txt <- lo_sites |> st_drop_geometry() |> 
+  slice_max(year, by = data_type)  |> 
+  select(site_id, huc12_bas:huc12_name) |> 
+  distinct()
+
+# get full list and filter by name and sites for this year
+huc12 <- read_sf("data/huc12_sagehen.geojson")
+huc_sel <- huc12 |> 
+  filter(HUC12 %in% unique(lo_sites$HUC12))
+
+# Dates and Year ---------------------------------------
+
+# make year and date ranges for printing more easily
+study_year <- year(last(lo_ml_meta$start_date))
+# use min and max to handle multiple sites, or site failures
+start_date_text <- format.Date(min(lo_ml_meta$start_date[which(lo_ml_meta$year==study_year)]), format="%b %d")
+end_date_text <- format.Date(max(lo_ml_meta$end_date[which(lo_ml_meta$year==study_year)]), format="%b %d")
+
+# Total game photos ----------------------------
+
+# this is another spreadsheet with all the photos per year. Not required, but nice for summary purposes
+cam_summary_2024 <- read_xlsx("data/WI_photo_summary_2023-2025.xlsx", sheet = 2) |> 
+  filter(Year == study_year)
+
+```
+
+## California Fish and Wildlife Monitoring Report (`r glue("{year_sel}")`): `r filter(meta_landowner, owner_clean %in% params$landowner) |> select(owner) |> distinct()` {.unnumbered .unlisted}
+
+<div>
+  <div style="float: left; position: relative; top: 0px; padding: 20px;">
+  ![](CDFW_Insignia_146x193.png){width=0.65in}
+  </div>
+    
+Since 2021, we have partnered with landowners like you, from farmers and ranchers to city residents, at hundreds of locations across California, as part of the California Environmental Monitoring and Assessment Framework (CEMAF). This program is building a better understanding of how wildlife are responding to California's changing environment, enabling our Department to better manage the state's natural resources so Californians and nature can thrive together.
+
+Our methods have been adopted by [Sentinel Sites for Nature – California](https://cassn.org/), a collaborative, statewide network of wildlife monitoring on CDFW lands, nature reserves, and private property. If you are interested in having your data contribute to this effort as well, please let us know! We will not share any data without your permission.
+    
+</div>
+
+## Monitoring Sites and Dates
+
+In `r study_year`, we surveyed `r length(unique(lo_sites_txt$site_id))` `r glue("{ifelse(length(unique(lo_sites_txt$site_id)) > 1, 'sites', 'site')}")` on your property in the **`r unique(lo_sites_txt$huc12_name)`** watershed (@fig-map) from `r start_date_text`--`r end_date_text` (@tbl-sites).
+
+```{r}
+#| label: tbl-sites
+#| tbl-cap: !expr glue("Site coordinates and number of sampling days by method (SA=Small Animal Camera, ML=Medium to Large Mammal Camera). Varying number of sampling days may be due to equipment malfunction or damage.")
+#| tbl-cap-location: top
+#| echo: false
+
+# get audio data
+site_tab <- lo_bd_meta |> 
+  filter(year == study_year) |> 
+  mutate(Birds = end_date-start_date) |> 
+  select(site_id, longitude, latitude, Birds) |>
+  left_join(lo_bt_meta |> filter(year==study_year) |> 
+              mutate(Bats = end_date-start_date+1) |> 
+              select(site_id, Bats)) |> 
+    rename("Site ID" = site_id, "Longitude" = longitude,
+         "Latitude" = latitude)
+
+# add camera data
+cam_tabs <- if(nrow(lo_sa_meta)==0){
+  lo_ml_meta |> 
+    filter(year == study_year) |> 
+    mutate("ML" = end_date-start_date + 1) |> 
+    select(site_id=site_id_static, ML) |> 
+    rename("Site ID" = site_id)
+} else({ 
+  lo_sa_meta |> 
+    filter(year == study_year) |> 
+    mutate("SA" = end_date-start_date + 1) |> 
+    select(site_id=site_id_static, SA) |> 
+    left_join(lo_ml_meta |> 
+                filter(year == study_year) |> 
+                mutate("ML" = end_date-start_date + 1) |> 
+                select(site_id=site_id_static, ML)) |> 
+    rename("Site ID" = site_id)
+})
+
+# join all
+site_tab <- site_tab |> left_join(cam_tabs) |>
+  rename("Lon."=Longitude, "Lat."=Latitude) |> 
+  mutate(Lon. = round(Lon. , 2),
+          Lat. = round(Lat. , 3)) |> 
+  gt() |> 
+    cols_width(
+    "Site ID" ~ px(50),
+    "Lat." ~ px(100),
+    starts_with("Lon") ~ px(130),
+    everything() ~ px(40)
+  ) |> 
+  tab_options(table.width = pct(100), column_labels.font.weight = "bold")
+
+site_tab |> gt::as_raw_html()
+
+#knitr::kable(align = c("l"))
+
+```
+
+```{r}
+#| label: fig-map
+#| fig-format: jpeg
+#| fig-column: page
+#| fig-dpi: 300
+#| out-width: 100%
+#| fig-cap: !expr glue("Map of CEMAF sites on your property within the {unique(lo_sites$huc12_name)} Watershed")
+#| error: false
+#| message: false
+#| warning: false
+#| echo: false
+#| eval: true
+      
+# get river flow lines, default CRS is 4326 for nhdtools
+
+# if more than 1 watershed need to collapse
+if(nrow(huc_sel)>1){
+  shed_rivs <- purrr::map(st_transform(huc_sel$geometry, 4326), ~get_nhdplus(huc_sel[.x,]))
+  shed_rivs <- do.call(rbind, shed_rivs)
+} else{shed_rivs <- get_nhdplus(st_transform(huc_sel$geometry, 4326))} # flowlines
+
+# re-transform:
+shed_rivs <- st_transform(shed_rivs, 3310)
+
+# crop
+# make a 1km buffer of the points
+sites_grid <- sf::st_make_grid(lo_sites, n = 1) |> st_buffer(dist = 1000) |> st_as_sf()
+shed_rivs_crop <- st_crop(shed_rivs, sites_grid)
+shed_bas_crop <- st_crop(huc_sel, sites_grid)
+
+library(basemaps) # get_maptypes to check defaults
+#basemaps::flush_cache() #may need this
+
+# add basemap?
+h12_sel_wgs <- st_transform(shed_bas_crop, 3857)
+sites_wgs <- st_transform(lo_sites, 3857) |> 
+  distinct(site_id, .keep_all = TRUE)
+shed_rivs_crop_wgs <- st_transform(shed_rivs_crop, 3857)
+shed_wb_crop_wgs <- st_transform(huc_sel, 3857)
+sites_grid_wgs <- st_transform(sites_grid, 3857)
+
+#set_defaults(map_service = "osm", map_type = "topographic")
+#set_defaults(map_service = "esri", map_type = "world_imagery")
+set_defaults(map_service = "esri", map_type = "natgeo_world_map")
+
+# use terra to crop to area of interest
+fs::dir_create("data_out")
+if(!file.exists(glue("data_out/{make_clean_names(params$landowner)}_basemap_esri_world_topo.tif"))){
+  base_rast <- basemap_raster(sites_grid_wgs, force = TRUE, verbose = FALSE) # or geotif
+  base_terra <- terra::rast(base_rast) # convert to terra
+  terra::writeRaster(base_terra, # write out
+                     filename = glue("data_out/{make_clean_names(params$landowner)}_basemap_esri_world_topo.tif"))
+}
+
+if(file.exists(glue("data_out/{make_clean_names(params$landowner)}_basemap_esri_world_topo.tif"))){
+  base_terra <- terra::rast(glue("data_out/{make_clean_names(params$landowner)}_basemap_esri_world_topo.tif"))
+}
+
+# turn off mask if sites are cropped out
+#base_terra_mask <- terra::crop(base_terra, h12_sel_wgs, mask=FALSE)
+
+base_terra_mask <- terra::crop(base_terra, h12_sel_wgs, mask=TRUE)
+
+# map
+(base_map <-
+    ggplot() +
+    # cropped and masked terra version
+    geom_spatraster_rgb(data=base_terra_mask, alpha=0.8) +
+    # watershed h12 boundary
+    geom_sf(data=h12_sel_wgs, fill=NA, color="gray12", linewidth=1.5) +
+    # rivers
+    geom_sf(data=shed_rivs_crop_wgs, color="steelblue4", linewidth=shed_rivs_crop_wgs$streamorde/6, show.legend = FALSE, alpha=0.97) +
+    # sites
+    geom_sf(data=sites_wgs, aes(fill="#FDE725FF"), alpha=0.8, size=3.5, pch=21)+
+    scale_fill_identity(labels = c('#FDE725FF' = "Terrestrial"), name = "Sites", guide = "legend") +
+    ggrepel::geom_text_repel(data=sites_wgs, 
+                             aes(label=site_id,
+                                 geometry=geometry),
+                            stat = "sf_coordinates",
+                            force_pull = 5, force = 1.5,
+                            min.segment.length = 0.1, size=5,
+                            color="black",
+                            bg.color = "white",
+                            segment.size  = 0.5,
+                            segment.curvature=-.2,
+                            segment.color = "grey80",
+                            fontface = "bold")+
+    ggspatial::annotation_north_arrow(width = unit(1.2, "cm"), pad_y = unit(1.1, "cm")) +
+    ggspatial::annotation_scale(unit_category="imperial") +
+    theme_void() +
+    theme(
+      legend.position = c("right"),
+      title = element_text(size = 20),
+      legend.title = element_text(size = 13, face = "bold"),
+      legend.text = element_text(size = 11)
+    )
+)
+
+```
+
+{{< pagebreak >}}
+
+## Bats
+
+```{r}
+#| label: batdata-check
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+
+lo_bt_sel <- lo_bt_dat |> 
+  filter(!is.na(present), present>0) |> 
+  select(-c(date_surveyed)) |> 
+  distinct(.keep_all=TRUE) 
+
+nobats <- if(nrow(lo_bt_sel)==0){
+  nobats <- TRUE
+  } else(
+    nobats <- FALSE
+  )
+
+```
+
+To survey bats, we deployed sound recorders that recorded bat echolocation calls for five consecutive nights ([see our protocol](https://storymaps.arcgis.com/collections/a6a06b22b05f43cd863568b2690b08c1?item=3)). After the field season, we identified the recorded calls to species.
+
+`r if(nobats) {glue("No bats were detected on your property in {study_year}.")} else(glue("\n"))`
+
+`r if(nobats) {"<!--"}`
+
+We recorded `r length(unique(lo_bt_sel$species_code))` unique bat species on your property in `r glue('{study_year}')`. @tbl-bat shows the total number of sites each bat species was recorded by year.
+
+```{r}
+#| label: bat-spp-site
+#| eval: !expr '!nobats'
+
+# join or add a weblink
+lo_bt_sel <- lo_bt_dat |> filter(present>0) |> 
+  mutate(weblink = glue("https://www.batcon.org/bat/{make_clean_names(Plotting_label, sep_out='-', allow_dupes = TRUE)}"))
+
+# tot sites
+no_site_cols <- length(unique(lo_bt_sel$site_id))
+
+```
+
+```{r}
+#| eval: !expr '!nobats'
+#| label: tbl-bat
+#| tbl-cap: !expr glue("Number of sites a bat species was detected by year on your property.")
+#| tbl-cap-location: top
+
+# spp by year and total sites
+bat_tbl <- lo_bt_sel |>
+  select(site_id, year, Plotting_label, num_nights, present, weblink) |>
+  distinct(.keep_all = TRUE) |> 
+  arrange(site_id, year) |> 
+  pivot_wider(id_cols = c(Plotting_label, weblink), 
+    names_from = year, values_from = present, values_fn = {sum }, values_fill = 0) |> 
+  rename("Species Name"=Plotting_label, "Species Website"=weblink) |>  
+  gt() |> 
+  fmt_url(columns="Species Website", label = "More Info") |> 
+  tab_style(style = list(cell_text(align = "left", stretch = "semi-condensed")), 
+    locations = cells_body(columns = "Species Name")) |> 
+  tab_options(table.width = pct(100), column_labels.font.weight = "bold") |> 
+  opt_row_striping() |> 
+  data_color(columns=starts_with("2"), method = "numeric", 
+    palette = c("Oranges"), # other palettes: "Reds", "Oranges", "Purples", "viridis"
+    na_color = "white", alpha=0.8, 
+    domain=c(0:no_site_cols)) |> as_raw_html()
+
+bat_tbl
+
+```
+
+`r if(nobats) {"-->"}`
+
+{{< pagebreak >}}
+
+## Birds
+
+```{r}
+#| label: birddata-check
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+
+lo_bd_sel <- lo_bd_dat
+
+nobirds <- if(nrow(lo_bd_sel)==0){
+  nobirds <- TRUE
+  } else(
+    nobirds <- FALSE
+  )
+
+```
+
+
+To survey birds, we deployed a second sound recorder that recorded bird vocalizations from 8pm to 9am on seven consecutive days ([see our protocol](https://storymaps.arcgis.com/collections/a6a06b22b05f43cd863568b2690b08c1?item=3)). After the field season, we used both a computer program and human expertise to identify recorded vocalizations to species. 
+
+`r if(nobirds) {glue("No birds were detected on your property in {study_year}.")} else(glue("\n"))`
+
+`r if(nobirds) {"<!--"}`
+
+```{r}
+#| label: lo-bird-data
+#| eval: !expr '!nobirds'
+
+bird_spp <- read_xlsx("data/CA_birds_cornell_links.xlsx") |> 
+  clean_names()
+
+# this gives us sites detected per year
+lo_bd_tally <- left_join(lo_bd_dat, bird_spp, by=c("common_name")) |>
+  select(site_id, year, common_name, num_nights, present, link) |>
+  distinct(.keep_all = TRUE) |> 
+  arrange(site_id, year) |> 
+  filter(present > 0) |> 
+  pivot_wider(id_cols = c(common_name, link),
+      names_from = year, values_from = present, values_fn = {sum}, values_fill = 0) |>
+  arrange(common_name)
+
+no_site_cols <- length(unique(lo_bd_dat$site_id))
+
+```
+
+We recorded `r length(unique(lo_bd_tally$common_name))` bird species on your property. @tbl-bird shows the total number of sites a bird species was recorded per year.
+
+```{r}
+#| label: tbl-bird
+#| eval: !expr '!nobirds'
+#| tbl-cap: !expr glue("Number of sites a bird species was detected by year on your property.")
+#| tbl-cap-location: top
+#| echo: false
+
+bd_tbl <- lo_bd_tally |> 
+  rename("Species Name" = common_name, "Species Website" = link) |> 
+  gt() |> 
+  fmt_url(columns="Species Website", label="More Info") |> 
+  tab_options(table.width = pct(100), column_labels.font.weight = "bold") |> 
+  tab_style(style = list(cell_text(align = "left", stretch = "semi-condensed")), 
+  locations = cells_body(columns = "Species Name")) |> 
+  opt_row_striping() |> 
+  data_color(columns=starts_with("2"), method = "numeric", 
+    palette = c("Oranges"), # other palettes: "Reds", "Oranges", "Purples", "viridis"
+    na_color = "white", alpha=0.8, 
+    domain=c(0:no_site_cols)) #|> as_raw_html()
+
+bd_tbl |> gt::as_raw_html()
+
+#knitr::kable(align = c("l", rep("c",no_site_cols),"l"))
+
+```
+
+`r if(nobirds) {"-->"}`
+
+{{< pagebreak >}}
+
+## Traditional Game Cameras
+
+```{r}
+#| label: mldata-check
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+
+noml <- if(nrow(lo_ml_dat)==0){
+  noml <- TRUE
+  } else(
+    noml <- FALSE
+  )
+
+```
+
+```{r}
+#| label: dat-ML-occ
+
+# generate ML data
+ml_occ_tab <- lo_ml_dat |> 
+  select(site_id, year, date, num_days, CEMAP_combined, Plotting_label) |>
+  distinct(.keep_all=TRUE) |> 
+  arrange(site_id, year) |>
+  group_by(site_id, year, num_days, CEMAP_combined, Plotting_label) |> 
+  tally(name="n_days_detected") |> # gives total days per year per site
+  # convert to just simple 1s
+  mutate(present = 1) |> 
+  # now pivot to give total of animals detected per year  (sum of sites)
+  pivot_wider(id_cols = c(Plotting_label),
+      names_from = year, values_from = present, values_fn = {sum}, values_fill = 0) |>
+  arrange(Plotting_label) |> ungroup() |> 
+  mutate(Plotting_label = stringr::str_to_title(Plotting_label, locale="en"))
+
+```
+
+To survey medium to large mammals, we deployed a traditional wildlife camera for ten weeks ([see our protocol](https://storymaps.arcgis.com/collections/a6a06b22b05f43cd863568b2690b08c1?item=2)). After the field season, we identified all photographed wildlife to species ([see our species identification protocol](https://experience.arcgis.com/experience/35f1057df2c746d2b6b888485201aa86/page/ID-Guides?views=Mammals)). 
+`r if(noml) {glue("No medium to large camera data was collected on your property in {study_year}.")} else(glue("\n"))`
+
+`r if(noml) {"<!--"}`
+
+A total of `r filter(cam_summary_2024, Data_type=="ML") |> pluck("Not_blank") |> scales::comma()` wildlife photos were collected in `r study_year` across all of our monitoring sites. Of those, `r scales::comma(nrow(lo_ml_dat))` photos were from the `r glue("{ifelse(lo_sites_txt |> nrow() > 1, 'cameras', 'camera')}")` deployed on your property. We photographed `r ml_occ_tab |> distinct(Plotting_label) |> tally() |> pluck('n')` wildlife species at sites on your property in `r study_year`. A summary of which species or group was photographed by site and year is provided in @tbl-ML-game, and a selection of the best photos are shown below. 
+
+```{r}
+#| label: tbl-ML-game
+#| eval: !expr '!noml'
+#| tbl-cap-location: top
+#| tbl-cap: Total sites on your property a species was photographed per year. See @tbl-sites for total number of days a site was sampled (how long a camera was deployed).
+
+ml_tbl <- ml_occ_tab |> rename("Species Name" = Plotting_label) |> 
+  gt() |> 
+  tab_options(table.width = pct(100), column_labels.font.weight = "bold") |> 
+  tab_style(style = list(cell_text(align = "left", stretch = "semi-condensed")), 
+  locations = cells_body(columns = "Species Name")) |> 
+  opt_row_striping() |> 
+  data_color(columns=starts_with("2"), method = "numeric", 
+  palette = c("Purples"), # other palettes: "Reds", "Oranges", "Purples", "viridis"
+  na_color = "white", alpha=0.8, 
+  domain=c(0:no_site_cols)) #|> as_raw_html()
+
+ml_tbl |> gt::as_raw_html()
+
+```
+
+{{< pagebreak >}}
+
+```{r}
+#| label: photo-paths
+#| echo: false
+#| eval: !expr '!noml'
+
+photo_dir <- glue("photos/{year_sel}/")
+
+
+```
+
+```{r}
+#| label: ML-cams
+#| eval: !expr '!noml'
+#| fig-cap: !expr glue('{ml_photo_names[1]}')
+
+ml_photo_paths <- dir_ls(path = glue("{photo_dir}/{params$landowner}/ML/"), recurse = FALSE, type = "file")
+
+ml_photo_names <- path_ext_remove(path_file(ml_photo_paths))
+
+```
+
+::: {#wicam}
+
+```{r}
+#| results: asis
+#| eval: !expr '!noml'
+
+glue("::: {{layout-ncol=2}}\n\n")
+glue("![{ml_photo_names}.]({ml_photo_paths}){{#wicam-{make_clean_names(ml_photo_names, sep_out='-')} .lightbox}}\n\n")
+glue(":::")
+
+```
+
+:::
+
+{{< pagebreak >}}
+
+## Drift-Fence Cameras 
+
+```{r}
+#| label: sadata-check
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+
+nosa <- if(nrow(lo_sa_dat)==0){
+  nosa <- TRUE
+  } else(
+    nosa <- FALSE
+  )
+
+```
+
+`r if(nosa) {"<!--"}`
+
+To survey small animals like reptiles and rodents, we deployed a drift fence combined with a downward-facing camera for ten weeks ([protocol](https://storymaps.arcgis.com/collections/a6a06b22b05f43cd863568b2690b08c1?item=1)). After the field season, we identified all photographed wildlife to species or group level (for example mouse, shrew, etc.). 
+
+`r if(nosa) {glue("No downward-facing camera data was collected on your property in {study_year}.")} else(glue("\n"))`
+
+
+```{r}
+#| label: dat-SA-occ
+#| eval: !expr '!nosa'
+
+# generate ML data
+sa_occ_tab <- lo_sa_dat |> 
+  select(site_id, year, date, num_days, CEMAP_combined, Plotting_label) |>
+  distinct(.keep_all=TRUE) |> 
+  arrange(site_id, year) |>
+  group_by(site_id, year, num_days, CEMAP_combined, Plotting_label) |> 
+  tally(name="n_days_detected") |> # gives total days per year per site
+  # convert to just simple 1s
+  mutate(present = 1) |> 
+  # now pivot to give total of animals detected per year  (sum of sites)
+  pivot_wider(id_cols = c(Plotting_label),
+      names_from = year, values_from = present, values_fn = {sum}, values_fill = 0) |>
+  arrange(Plotting_label) |> ungroup() |> 
+  mutate(Plotting_label = stringr::str_to_title(Plotting_label, locale="en"))
+
+
+```
+
+
+A total of `r filter(cam_summary_2024, Data_type=="SA") |> pluck("Not_blank") |> scales::comma()` photos were collected in `r study_year` across all our monitoring sites, and approximately `r scales::comma(nrow(lo_sa_dat))` photos with wildlife were from the drift-fence `r glue("{ifelse(lo_sites_txt |> nrow() > 1, 'cameras', 'camera')}")` on your property. A total of `r ifelse(!nosa, sa_occ_tab |> distinct(Plotting_label) |> tally() |> pluck('n'), 0)` species or species groups were photographed on your property in `r study_year`. A summary of which species or group was photographed by site and year is provided in @tbl-SA-game, and a selection of the best photos are shown below.  
+
+
+```{r}
+#| label: tbl-SA-game
+#| eval: !expr '!nosa'
+#| tbl-cap: Total sites on your property a species was photographed per year. See @tbl-sites for total number of days a site was sampled (how long a camera was deployed).
+#| tbl-cap-location: top
+#| echo: false
+#| 
+
+sa_tbl <- sa_occ_tab |> rename("Species Name" = Plotting_label) |> 
+  gt() |> 
+  tab_options(table.width = pct(100), column_labels.font.weight = "bold") |> 
+  tab_style(style = list(cell_text(align = "left", stretch = "semi-condensed")), 
+  locations = cells_body(columns = "Species Name")) |> 
+  opt_row_striping() |> 
+  data_color(columns=starts_with("2"), method = "numeric", 
+  palette = c("Reds"), # other palettes: "Reds", "Oranges", "Purples", "viridis"
+  na_color = "white", alpha=0.8, 
+  domain=c(0:no_site_cols)) #|> as_raw_html()
+
+sa_tbl |> gt::as_raw_html()
+
+```
+
+{{< pagebreak >}}
+
+```{r}
+#| label: SA-cams
+#| eval: !expr '!nosa'
+#| fig-cap: !expr glue('{sa_photo_names[1]}')
+
+sa_photo_paths <- dir_ls(path = glue("{photo_dir}/{params$landowner}/SA/"), recurse = FALSE, type = "file")
+
+sa_photo_names <- path_ext_remove(path_file(sa_photo_paths))
+
+```
+
+::: {#wicam}
+
+```{r}
+#| eval: !expr '!nosa'
+#| results: asis
+
+glue("::: {{layout-ncol=2}}\n\n")
+glue("![{sa_photo_names}.]({sa_photo_paths}){{#wicam-{make_clean_names(sa_photo_names, sep_out='-')} .lightbox}}\n\n")
+glue(":::")
+
+```
+
+:::
+
+`r if(nosa) {"-->"}`
+
+
+{{< pagebreak >}}
+
+## Thanks! {.unnumbered .unlisted}
+
+Thank you! Without the generous cooperation and partnership of so many landowners like yourself, our project wouldn't be possible. We hope to continue working with you in the future! Our goal is to re-survey the same locations every other year.

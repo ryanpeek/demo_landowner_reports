@@ -1,0 +1,21 @@
+site_id,year,apn,site_address,mailing_address,cemaf_contact,cannabis_license,owner,poc,phone_one,phone_two,email_one,email_two,public_land_poc_1,public_land_poc_2,comments,private_data,private_data_agreement,install_notification,install_followup,permission_to_leave_fence
+DOWN1,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+DOWN2,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+DOWN3,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+DOWN4,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+ELDO1,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,Done,NA,FALSE
+ELDO2,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,Done,NA,FALSE
+ELDO3,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,Done,NA,FALSE
+ELDO4,2024,NA,NA,,,,"Tahoe National Forest, USFS",Tina Turner,NA,,tina@turner.com,NA,NA,,NA,NA,NA,Done,NA,FALSE
+SAHE1,2024,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE2,2024,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE3,2024,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE4,2024,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE1,2023,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE2,2023,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE3,2023,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE4,2023,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE1,2025,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE2,2025,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE3,2025,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
+SAHE4,2025,NA,NA,,,,UC Sagehen Reserve,Sage Hen,NA,,Sage@hen.com,NA,NA,,NA,NA,NA,NA,NA,FALSE
