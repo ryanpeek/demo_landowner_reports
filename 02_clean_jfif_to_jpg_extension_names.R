@@ -11,24 +11,18 @@ library(janitor)
 library(fs)
 
 ## Set Paths
-username <- Sys.getenv("USERNAME")
-drive <- r'(C:\Users\)'
-onedrive <- r'(OneDrive - California Department of Fish and Wildlife\)'
 year_sel <- 2024
-# check what your One Drive Terrestrial path
-cemaf <- "Terrestrial"
-
-# create path to database location:
-dat_path <- glue("{drive}/{username}/{onedrive}/{cemaf}/Data/")
+# create path to data location:
+dat_path <- glue("photos/")
 
 # path to photos
-photo_dir <- glue("{drive}/{username}/{onedrive}/{cemaf}/Landowner_reports/{year_sel}/Landowner_data/")
+photo_dir <- glue("{dat_path}/{year_sel}/")
 
 # full photo paths
 photo_paths <- dir_ls(path = glue("{photo_dir}/"), recurse = TRUE, type = "file")
 
 # just the filenames (easier to view)
-photo_filenames <- fs::path_file(photo_paths)
+(photo_filenames <- fs::path_file(photo_paths))
 
 # filter to any that have "jfif"
 ph_jfif <- grepl("jfif$", photo_paths)
