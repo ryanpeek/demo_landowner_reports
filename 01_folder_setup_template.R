@@ -22,7 +22,7 @@ library(purrr)
 userhome <- fs::path_home()
 onedrive <- r'(OneDrive - California Department of Fish and Wildlife\)'
 cemaf <- "Terrestrial"
-yr <- "2024"
+yr <- "2025"
 
 # out path: where you want to create the directories
 out_path <- glue("photos/{yr}/")
@@ -74,10 +74,10 @@ map(owner_dir_names, ~fs::dir_create(c(glue("{out_path}/{.x}/SA"), glue("{out_pa
 
 # if they are setup already or want to check existing:
 # get at tree view of folders
-dir_tree(glue("{out_path}/Landowner_data/"), type = "directory")
+dir_tree(glue("{out_path}/"), type = "directory")
 
 # make a list out dir only
-folders <- dir_ls(glue("{out_path}/Landowner_data/"), recurse = FALSE, type = "directory")
+folders <- dir_ls(glue("{out_path}/"), recurse = FALSE, type = "directory")
 
 
 # Get a Count of Photos per Folder ----------------------------------------
@@ -88,7 +88,7 @@ owners <- as_tibble(sort(basename(folders)))
 owners$value == owner_dir_names # should all be TRUE
 
 # get count of files in each
-(photo_counts <- tibble(folders = dir_ls(glue("{out_path}/Landowner_data/"), recurse = TRUE, type="directory"))  |>
+(photo_counts <- tibble(folders = dir_ls(glue("{out_path}/"), recurse = TRUE, type="directory"))  |>
   rowwise() |>
   mutate(
     subdir = basename(folders),
@@ -99,4 +99,4 @@ owners$value == owner_dir_names # should all be TRUE
   select(-folders))
 
 # write_csv for easy view
-write_csv(photo_counts, file = glue("{out_path}/photo_counts_per_landowner_{gsub('-', '', Sys.Date())}.csv"))
+#write_csv(photo_counts, file = glue("{out_path}/photo_counts_per_landowner_{gsub('-', '', Sys.Date())}.csv"))

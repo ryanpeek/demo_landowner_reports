@@ -3,12 +3,12 @@ date-meta: today
 params:
   landowner: "uc_sagehen_reserve"
 format:
-  #    - top=30mm
-  #    - left=20mm
-  #    - heightrounded
-  #pdf: 
-  #  toc: false
-  #  geometry:
+  pdf: 
+    toc: false
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
   #docx: 
   #  page-width: 8 
   html:
@@ -215,7 +215,7 @@ cam_summary_2024 <- read_xlsx("data/WI_photo_summary_2023-2025.xlsx", sheet = 2)
 
 <div>
   <div style="float: left; position: relative; top: 0px; padding: 20px;">
-  ![](CDFW_Insignia_146x193.png){width=0.65in}
+  ![](phylopic_owl_glaucidium_nana.png){width=0.65in}
   </div>
     
 Since 2021, we have partnered with landowners like you, from farmers and ranchers to city residents, at hundreds of locations across California, as part of the California Environmental Monitoring and Assessment Framework (CEMAF). This program is building a better understanding of how wildlife are responding to California's changing environment, enabling our Department to better manage the state's natural resources so Californians and nature can thrive together.
